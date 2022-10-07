@@ -1,9 +1,6 @@
-@use './vars.scss';
-@use './mixins.scss';
-
 body {
-  background-color: vars.$body-color;
-  color: vars.$font-color;
+  background-color: #1c1922;
+  color: #fff;
   font-family: sans-serif;
   display: flex;
   flex-direction: column;
@@ -16,4 +13,4 @@ a {
 
 h1 {
   font-size: 2rem;
-}
+}/*# sourceMappingURL=style.css.map */
