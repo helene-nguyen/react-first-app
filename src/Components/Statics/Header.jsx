@@ -1,9 +1,11 @@
 import React from 'react';
+import Greetings from '../Modulables/Greetings';
 
 function Header() {
   return (
     <header> 
       <h1>KeeperCode</h1>
+      <Greetings/>
     </header>
   );
 }

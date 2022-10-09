@@ -24,20 +24,30 @@ header {
   background-color: #1c1922;
   color: #fff;
   font-weight: bold;
-  height: 5rem;
+  height: 7rem;
   width: 100%;
-  padding: 1rem;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+header h1 {
+  padding: 1rem;
 }
 
+.greetings {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 0 2rem;
+}
 .greetings__time {
   font-family: "Raleway", sans-serif;
   font-size: 1rem;
-  font-weight: bold;
 }
 .greetings__words {
-  font-size: 3rem;
+  font-size: 2rem;
+  padding: 1rem 0 0;
+  text-align: end;
 }
 .greetings__words-morning {
   color: #5499da;
@@ -49,6 +59,11 @@ header {
   color: #008000;
 }
 
+@media screen and (max-width: 720px) {
+  .greetings__words {
+    font-size: 1.5rem;
+  }
+}
 footer {
   background-color: #1c1922;
   color: #fff;

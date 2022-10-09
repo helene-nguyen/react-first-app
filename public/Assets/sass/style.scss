@@ -21,26 +21,44 @@ header {
   background-color: vars.$color-black;
   color: vars.$color-white;
   font-weight: bold;
-  height: 5rem;
+  height: 7rem;
   width: 100%;
-  padding: 1rem;
   //
   display: flex;
   align-items: center;
+  justify-content: space-between;
+
+  & h1 {
+    padding: 1rem;
+  }
 }
 
 //* GREETINGS
 .greetings {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 0 2rem;
 
   &__time {
     font-family: vars.$font-raleway;
     font-size: 1rem;
-    font-weight: bold;
   }
 
   &__words {
     @include mixins.moment-time;
-    font-size: 3rem;
+    font-size: 2rem;
+    padding: 1rem 0 0;
+    text-align: end;
+  }
+}
+
+//& MEDIA QUERIES GREETINGS
+@media screen and (max-width : 720px) {
+  .greetings {
+    &__words {
+      font-size: 1.5rem;
+    }
   }
 }
 
