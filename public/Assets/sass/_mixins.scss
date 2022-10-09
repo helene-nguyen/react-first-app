@@ -17,3 +17,17 @@
     cursor: pointer;
   }
 }
+
+@mixin moment-time {
+  &-morning {
+    color: #5499da;
+  }
+
+  &-afternoon {
+    color: #f04e8c;
+  }
+
+  &-night {
+    color: #008000;
+  }
+}

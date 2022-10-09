@@ -1,0 +1,20 @@
+//~Import fonts
+@font-face {
+    font-family: 'Sacramento';
+    src: url("./../../fonts/Sacramento-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url("./../../fonts/Raleway-VariableFont_wght.ttf") format("truetype");
+}
+
+//~Fonts
+$font-sacramento: 'Sacramento', sans-serif;
+$font-raleway: 'Raleway', sans-serif;
+
+//~Variables
+
+//~Colors
+$color-black: #1c1922;
+$color-white: #fff;
+$color-white-lgt: #f4effd
