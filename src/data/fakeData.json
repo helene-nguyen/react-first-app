@@ -1,0 +1,32 @@
+[
+    {
+        "title":"This is a little note title 1",
+        "content":"This is a simple note content",
+        "category":"This is a little category in footer"
+    },
+    {
+        "title":"This is a little note title 2",
+        "content":"This is a simple note content",
+        "category":"This is a little category in footer"
+    },
+    {
+        "title":"This is a little note title 3",
+        "content":"This is a simple note content",
+        "category":"This is a little category in footer"
+    },
+    {
+        "title":"This is a little note title 4",
+        "content":"This is a simple note content",
+        "category":"This is a little category in footer"
+    },
+    {
+        "title":"This is a little note title 5",
+        "content":"This is a simple note content",
+        "category":"This is a little category in footer"
+    },
+    {
+        "title":"This is a little note title 6",
+        "content":"This is a simple note content",
+        "category":"This is a little category in footer"
+    }
+]

@@ -4,7 +4,7 @@ const thisYear = new Date().getFullYear();
 
 function Footer() {
     return (
-        <footer>
+        <footer id='footer'>
             <h2> Copyright © {thisYear} Yumicode </h2>
         </footer>
     )

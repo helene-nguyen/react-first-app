@@ -20,23 +20,26 @@ h1 {
   font-size: 3rem;
 }
 
-header {
+#header {
   background-color: #1c1922;
   color: #fff;
   font-weight: bold;
-  height: 7rem;
   width: 100%;
   display: flex;
-  align-items: center;
+  flex-direction: true;
   justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.85);
+  padding: 2rem 0;
 }
-header h1 {
+#header h1 {
   padding: 1rem;
 }
 
 .greetings {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: flex-end;
   margin: 0 2rem;
 }
@@ -46,7 +49,7 @@ header h1 {
 }
 .greetings__words {
   font-size: 2rem;
-  padding: 1rem 0 0;
+  padding: 1rem 0 1rem;
   text-align: end;
 }
 .greetings__words-morning {
@@ -64,17 +67,52 @@ header h1 {
     font-size: 1.5rem;
   }
 }
-footer {
+.note {
+  font-family: "Raleway", sans-serif;
+  background-color: #fff;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 15rem;
+  cursor: pointer;
+  transition: 0.25s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.note__item {
+  margin: 0.5rem 0;
+}
+.note__item__header {
+  font-weight: bold;
+}
+.note__item__footer {
+  font-size: 0.75rem;
+}
+
+.note:hover {
+  transform: scale(1.05);
+}
+
+.note-board {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#footer {
   background-color: #1c1922;
   color: #fff;
   font-family: "Raleway", sans-serif;
   font-size: 0.75rem;
-  padding: 1rem;
+  padding: 1rem 0;
   height: 2rem;
   width: 100%;
   position: absolute;
   bottom: 0;
   display: flex;
+  flex-direction: true;
   justify-content: center;
   align-items: flex-end;
+  box-shadow: 0 0 -10px 0 rgba(0, 0, 0, 0.85);
 }/*# sourceMappingURL=style.css.map */

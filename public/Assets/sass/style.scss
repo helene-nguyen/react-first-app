@@ -3,8 +3,8 @@
 
 
 body {
-  background-color: vars.$color-white-lgt;
-  color: vars.$color-black;
+  background-color: vars.$color-secondary-lgt;
+  color: vars.$color-primary;
   font-family: vars.$font-sacramento;
 }
 
@@ -17,16 +17,17 @@ h1 {
 }
 
 //* HEADER 
-header {
-  background-color: vars.$color-black;
-  color: vars.$color-white;
+#header {
+  background-color: vars.$color-primary;
+  color: vars.$color-secondary;
   font-weight: bold;
-  height: 7rem;
   width: 100%;
   //
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  @include mixins.flexbox(space-between, center);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.85);
+  //
+  padding: 2rem 0;
+
 
   & h1 {
     padding: 1rem;
@@ -35,9 +36,7 @@ header {
 
 //* GREETINGS
 .greetings {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  @include mixins.flexbox(center, flex-end, column);
   margin: 0 2rem;
 
   &__time {
@@ -48,7 +47,7 @@ header {
   &__words {
     @include mixins.moment-time;
     font-size: 2rem;
-    padding: 1rem 0 0;
+    padding: 1rem 0 1rem;
     text-align: end;
   }
 }
@@ -62,23 +61,59 @@ header {
   }
 }
 
+//* NOTE
+.note {
+  font-family: vars.$font-raleway;
+  background-color: vars.$color-secondary;
+  //boxmodel
+  margin: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  //display
+  width: 15rem;
+  //
+  cursor: pointer;
+  transition: 0.25s ease;
+  @include mixins.flexbox(center, center, column);
+
+  &__item {
+    margin: 0.5rem 0;
+
+    &__header {
+      font-weight: bold ;
+    }
+
+    &__footer {
+      font-size: 0.75rem;
+    }
+  }
+}
+
+.note:hover {
+  transform: scale(1.05);
+}
+
+.note-board {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 //* FOOTER
-footer {
-  background-color: vars.$color-black;
+#footer {
+  background-color: vars.$color-primary;
   //font
-  color: vars.$color-white;
+  color: vars.$color-secondary;
   font-family: vars.$font-raleway;
   font-size: 0.75rem;
   //box models
-  padding: 1rem;
+  padding: 1rem 0;
   height: 2rem;
   width: 100%;
   //position
   position: absolute;
   bottom: 0;
   //display
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
+  @include mixins.flexbox(center, flex-end);
+  box-shadow: 0 0 -10px 0 rgba(0, 0, 0, 0.85);
 
 }

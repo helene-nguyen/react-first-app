@@ -3,7 +3,7 @@ import Greetings from '../Modulables/Greetings';
 
 function Header() {
   return (
-    <header> 
+    <header id='header'> 
       <h1>KeeperCode</h1>
       <Greetings/>
     </header>

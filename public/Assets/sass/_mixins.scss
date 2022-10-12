@@ -1,5 +1,6 @@
 @use './vars.scss';
 
+//~buttons
 @mixin button {
   &__button {
     color: vars.$font-color;
@@ -18,6 +19,7 @@
   }
 }
 
+//~Color display hours
 @mixin moment-time {
   &-morning {
     color: #5499da;
@@ -30,4 +32,16 @@
   &-night {
     color: #008000;
   }
+}
+
+//~Flexbox
+@mixin flexbox($justify, $align, $flex-direction:true) {
+  display: flex;
+
+  @if flex-direction {
+    flex-direction: $flex-direction;
+  }
+
+  justify-content: $justify;
+  align-items: $align;
 }
