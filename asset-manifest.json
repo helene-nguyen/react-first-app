@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/static/js/main.29a3730f.js",
-    "index.html": "/index.html",
-    "main.29a3730f.js.map": "/static/js/main.29a3730f.js.map"
+    "main.js": "/keepercode/static/js/main.29a3730f.js",
+    "index.html": "/keepercode/index.html",
+    "main.29a3730f.js.map": "/keepercode/static/js/main.29a3730f.js.map"
   },
   "entrypoints": [
     "static/js/main.29a3730f.js"
