@@ -1,0 +1,118 @@
+@font-face {
+  font-family: "Sacramento";
+  src: url("./../../fonts/Sacramento-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("./../../fonts/Raleway-VariableFont_wght.ttf") format("truetype");
+}
+body {
+  background-color: #f4effd;
+  color: #1c1922;
+  font-family: "Sacramento", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+#header {
+  background-color: #1c1922;
+  color: #fff;
+  font-weight: bold;
+  width: 100%;
+  display: flex;
+  flex-direction: true;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.85);
+  padding: 2rem 0;
+}
+#header h1 {
+  padding: 1rem;
+}
+
+.greetings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 0 2rem;
+}
+.greetings__time {
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+}
+.greetings__words {
+  font-size: 2rem;
+  padding: 1rem 0 1rem;
+  text-align: end;
+}
+.greetings__words-morning {
+  color: #5499da;
+}
+.greetings__words-afternoon {
+  color: #f04e8c;
+}
+.greetings__words-night {
+  color: #008000;
+}
+
+@media screen and (max-width: 720px) {
+  .greetings__words {
+    font-size: 1.5rem;
+  }
+}
+.note {
+  font-family: "Raleway", sans-serif;
+  background-color: #fff;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 15rem;
+  cursor: pointer;
+  transition: 0.25s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.note__item {
+  margin: 0.5rem 0;
+}
+.note__item__header {
+  font-weight: bold;
+}
+.note__item__footer {
+  font-size: 0.75rem;
+}
+
+.note:hover {
+  transform: scale(1.05);
+}
+
+.note-board {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#footer {
+  background-color: #1c1922;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 0.75rem;
+  padding: 1rem 0;
+  height: 2rem;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: true;
+  justify-content: center;
+  align-items: flex-end;
+  box-shadow: 0 0 -10px 0 rgba(0, 0, 0, 0.85);
+}/*# sourceMappingURL=style.css.map */
