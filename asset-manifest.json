@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "https://yumicode.net/keepercode/static/js/main.29a3730f.js",
+    "index.html": "https://yumicode.net/keepercode/index.html",
+    "main.29a3730f.js.map": "https://yumicode.net/keepercode/static/js/main.29a3730f.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.29a3730f.js"
+  ]
+}
