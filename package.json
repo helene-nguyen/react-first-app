@@ -1,7 +1,7 @@
 {
   "name": "react-starter-app",
   "version": "1.0.0",
-  "homepage": "https://yumicode.net/keepercode",
+  "homepage": "https://yumicode.net",
   "description": "",
   "main": "src/index.js",
   "scripts": {
