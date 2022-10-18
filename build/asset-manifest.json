@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "https://yumicode.net/keepercode/static/js/main.29a3730f.js",
-    "index.html": "https://yumicode.net/keepercode/index.html",
-    "main.29a3730f.js.map": "https://yumicode.net/keepercode/static/js/main.29a3730f.js.map"
+    "main.js": "https://helene-nguyen.github.io/react-first-app/static/js/main.29a3730f.js",
+    "index.html": "https://helene-nguyen.github.io/react-first-app/index.html",
+    "main.29a3730f.js.map": "https://helene-nguyen.github.io/react-first-app/static/js/main.29a3730f.js.map"
   },
   "entrypoints": [
     "static/js/main.29a3730f.js"
