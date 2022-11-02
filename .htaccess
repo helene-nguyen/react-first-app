@@ -7,3 +7,4 @@
   RewriteCond %{REQUEST_FILENAME} !-l
   RewriteRule . public/Assets/index.html [L]
 </IfModule>
+
